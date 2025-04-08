@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATL_ObstacleTexture
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 216ad52e1777f354c9494262430fb775, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 2b7bc780d6ee4f349bf083d2b3eff26c: 21300000
+    - 4ee92a5217baa154ba6334544e1fffcf: 21300000
+    - 6a463fb2130032c4a9a2f405fe5fe219: 21300000
+    - d240585b518d7c64290e6fa9b229e086: 21300000
+    - b650fd4f5ea56a445bf1482c03b7f050: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2b7bc780d6ee4f349bf083d2b3eff26c, type: 3}
+  - {fileID: 21300000, guid: 4ee92a5217baa154ba6334544e1fffcf, type: 3}
+  - {fileID: 21300000, guid: 6a463fb2130032c4a9a2f405fe5fe219, type: 3}
+  - {fileID: 21300000, guid: d240585b518d7c64290e6fa9b229e086, type: 3}
+  - {fileID: 21300000, guid: b650fd4f5ea56a445bf1482c03b7f050, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - TEX_BeachTube
+  - TEX_BeachProp
+  - TEX_Animal_Net
+  - TEX_Animal_Net_White
+  - TEX_Obstacles
+  m_RenderDataMap: {}
+  m_Tag: ATL_ObstacleTexture
+  m_IsVariant: 0

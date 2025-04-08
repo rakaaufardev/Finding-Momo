@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e711ff93614276b48b378163b7486133, type: 3}
+  m_Name: SOFixedPlatform
+  m_EditorClassIdentifier: 
+  folderPath: StartPlatform
+  fixedPlatforms:
+  - folderPath: StartPlatform
+    platformName: Platform2D_Town_Tutorial_Intro
+    platformStatus: 5
+    platformTheme: 1
+    viewMode: 0
+    probability: 0
+  - folderPath: StartPlatform
+    platformName: Platform2D_Town_Tutorial_SideView
+    platformStatus: 2
+    platformTheme: 1
+    viewMode: 0
+    probability: 0
+  - folderPath: StartPlatform
+    platformName: Platform3D_Town_Tutorial_BackView
+    platformStatus: 6
+    platformTheme: 1
+    viewMode: 1
+    probability: 0
+  - folderPath: StartPlatform
+    platformName: Platform3D_Town_Tutorial_End
+    platformStatus: 4
+    platformTheme: 1
+    viewMode: 1
+    probability: 0

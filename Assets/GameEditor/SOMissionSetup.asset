@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9983e76b468e294ca1a1dd7449ab961, type: 3}
+  m_Name: SOMissionSetup
+  m_EditorClassIdentifier: 
+  worldMissionList:
+  - missionID: Marathon Mode
+    missionDescription: Show your endurance by reaching 4000m without stopping!
+    goalValue: 4000
+    missionType: 0
+    rewardType: 1
+    coin: 3000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Bagged and Tagged
+    missionDescription: Collect 30 plastic bags
+    goalValue: 30
+    missionType: 1
+    rewardType: 2
+    coin: 0
+    gem: 30
+    costume: 4
+    surfboard: 4
+  - missionID: Spring Loaded
+    missionDescription: Jump on a trampoline 10 times in one run and reach new heights!
+    goalValue: 10
+    missionType: 2
+    rewardType: 1
+    coin: 1000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Complete All Mission
+    missionDescription: Complete all missions
+    goalValue: 3
+    missionType: 3
+    rewardType: 6
+    coin: 0
+    gem: 0
+    costume: 4
+    surfboard: 4
+  surfMissionList:
+  - missionID: m1
+    missionDescription: Rescue\nMarine Animal
+    goalValue: 10
+    rewardValue: 500
+    missionType: 11
+    surfboardReward: 4
+  - missionID: m2
+    missionDescription: Surf for 100m
+    goalValue: 100
+    rewardValue: 100
+    missionType: 1
+    surfboardReward: 0
+  - missionID: m3
+    missionDescription: Collect\n100 coins
+    goalValue: 100
+    rewardValue: 1000
+    missionType: 2
+    surfboardReward: 0
+  - missionID: m4
+    missionDescription: Rescue\nSea Turtle 2x
+    goalValue: 2
+    rewardValue: 200
+    missionType: 6
+    surfboardReward: 0
+  - missionID: m5
+    missionDescription: Surf for  15s
+    goalValue: 15
+    rewardValue: 150
+    missionType: 3
+    surfboardReward: 0
+  - missionID: m6
+    missionDescription: Stay in air 1s
+    goalValue: 1
+    rewardValue: 100
+    missionType: 4
+    surfboardReward: 0
+  - missionID: m7
+    missionDescription: Hit\nArnold x1
+    goalValue: 1
+    rewardValue: 100
+    missionType: 5
+    surfboardReward: 0
+  - missionID: m8
+    missionDescription: Surf for 200m
+    goalValue: 200
+    rewardValue: 200
+    missionType: 1
+    surfboardReward: 0
+  - missionID: m9
+    missionDescription: Collect\n200 coins
+    goalValue: 200
+    rewardValue: 2000
+    missionType: 2
+    surfboardReward: 0
+  - missionID: m10
+    missionDescription: Rescue\nSea Turtle 3x
+    goalValue: 3
+    rewardValue: 300
+    missionType: 6
+    surfboardReward: 0
+  - missionID: m11
+    missionDescription: Surf for 30s
+    goalValue: 30
+    rewardValue: 300
+    missionType: 3
+    surfboardReward: 0
+  - missionID: m12
+    missionDescription: Stay in air 2s
+    goalValue: 2
+    rewardValue: 300
+    missionType: 4
+    surfboardReward: 0
+  - missionID: m13
+    missionDescription: Hit\nArnold 2x
+    goalValue: 2
+    rewardValue: 200
+    missionType: 5
+    surfboardReward: 0
+  - missionID: m14
+    missionDescription: Surf for 300m
+    goalValue: 300
+    rewardValue: 300
+    missionType: 1
+    surfboardReward: 0
+  - missionID: m15
+    missionDescription: Collect\n300 coins
+    goalValue: 300
+    rewardValue: 3000
+    missionType: 2
+    surfboardReward: 0
+  - missionID: m16
+    missionDescription: Rescue\nSea Turtle 5x
+    goalValue: 5
+    rewardValue: 500
+    missionType: 6
+    surfboardReward: 0
+  - missionID: m17
+    missionDescription: Surf for 45 s
+    goalValue: 45
+    rewardValue: 450
+    missionType: 3
+    surfboardReward: 0
+  - missionID: m18
+    missionDescription: Stay in air 3s
+    goalValue: 3
+    rewardValue: 300
+    missionType: 4
+    surfboardReward: 0
+  - missionID: m19
+    missionDescription: Hit\nArnold 3x
+    goalValue: 3
+    rewardValue: 300
+    missionType: 5
+    surfboardReward: 0
+  - missionID: m20
+    missionDescription: Rescue\nDolphin 5x
+    goalValue: 5
+    rewardValue: 800
+    missionType: 7
+    surfboardReward: 0
+  - missionID: m21
+    missionDescription: Rescue\nDolphin 3x
+    goalValue: 3
+    rewardValue: 600
+    missionType: 7
+    surfboardReward: 0
+  - missionID: m22
+    missionDescription: Rescue\nDolphin 2x
+    goalValue: 2
+    rewardValue: 400
+    missionType: 7
+    surfboardReward: 0

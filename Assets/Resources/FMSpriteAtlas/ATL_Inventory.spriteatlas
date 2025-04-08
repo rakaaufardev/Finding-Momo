@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATL_Inventory
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d8fd3b85fb5337143bd52f41c131353e, type: 3}
+    bindAsDefault: 0
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - ee43d5d0143ca7343a158d5568248439: 21300000
+    - c83a5712e44d7f441bf975774cb508f7: 21300000
+    - a9c0226519ba2404197fc5cd94892a30: 21300000
+    - 66042f16dc3ce1a44ab3529b6657d063: 21300000
+    - 04d7ff36a326dd046b58a496f75a2843: 21300000
+    - f6359f46a8bd4af40a9a267c9542b95e: 21300000
+    - 1ed2823ce11afd548a06dcf31dde27a3: 21300000
+    - c82bc5cd6713b3043b760936d7039723: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ee43d5d0143ca7343a158d5568248439, type: 3}
+  - {fileID: 21300000, guid: c83a5712e44d7f441bf975774cb508f7, type: 3}
+  - {fileID: 21300000, guid: a9c0226519ba2404197fc5cd94892a30, type: 3}
+  - {fileID: 21300000, guid: 66042f16dc3ce1a44ab3529b6657d063, type: 3}
+  - {fileID: 21300000, guid: 04d7ff36a326dd046b58a496f75a2843, type: 3}
+  - {fileID: 21300000, guid: f6359f46a8bd4af40a9a267c9542b95e, type: 3}
+  - {fileID: 21300000, guid: 1ed2823ce11afd548a06dcf31dde27a3, type: 3}
+  - {fileID: 21300000, guid: c82bc5cd6713b3043b760936d7039723, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Inventory_Surfboard_Cool
+  - Inventory_Costume_Casual
+  - Inventory_Costume_Ski
+  - Inventory_Surfboard_Wavy
+  - Inventory_Costume_Christmas
+  - Inventory_Surfboard_Flame
+  - Inventory_Costume_Seollal
+  - Inventory_Surfboard_Swirly
+  m_RenderDataMap: {}
+  m_Tag: ATL_Inventory
+  m_IsVariant: 0

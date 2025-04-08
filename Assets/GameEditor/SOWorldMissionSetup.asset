@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc32c6e2deb23034f81a1923940a67ef, type: 3}
+  m_Name: SOWorldMissionSetup
+  m_EditorClassIdentifier: 
+  worldMissionList:
+  - missionID: Run 1000m
+    missionDescription: Run 1000m
+    goalValue: 200
+    missionType: 0
+    rewardType: 1
+    coin: 1000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Run 2000m
+    missionDescription: Run 2000m
+    goalValue: 400
+    missionType: 0
+    rewardType: 1
+    coin: 2000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Run 3000m
+    missionDescription: Run 3000m
+    goalValue: 600
+    missionType: 0
+    rewardType: 1
+    coin: 3000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Run 4000m
+    missionDescription: Run 4000m
+    goalValue: 800
+    missionType: 0
+    rewardType: 1
+    coin: 4000
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Gyeong-Ju
+    missionDescription: Complete the previous 4 missions
+    goalValue: 4
+    missionType: 3
+    rewardType: 6
+    coin: 0
+    gem: 0
+    costume: 4
+    surfboard: 4
+  - missionID: Run 5000m
+    missionDescription: Run 5000m
+    goalValue: 200
+    missionType: 0
+    rewardType: 1
+    coin: 5000
+    gem: 0
+    costume: 4
+    surfboard: 4

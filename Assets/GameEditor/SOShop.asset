@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6317e6e1200117f4a841b7f144725cf4, type: 3}
+  m_Name: SOShop
+  m_EditorClassIdentifier: 
+  version: 1.36
+  shopDatas:
+  - productId: WinterCostumesBundles
+    groupName: Offers
+    tabName: Offers
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Winter Packs
+    previewTitle: Winter Packs
+    description: 
+    enableDiscount: 1
+    discountTag: Best Value
+    thumbnailName: Thumbnail_Shop_Bundle_Winter
+    costTypes:
+    - cost: 37.5
+      discountCost: 28.13
+      isDiscount: 1
+      shopCurrencyType: 2
+    rewardDatas:
+    - rewardType: 0
+      value: 1
+      amount: 1
+    - rewardType: 0
+      value: 3
+      amount: 1
+  - productId: SkiJon
+    groupName: Costume
+    tabName: Costume
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 1
+    modelViewerName: Costume_Shop_Jon_Ski
+    title: Ski
+    previewTitle: Ski
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Jon_Ski
+    costTypes:
+    - cost: 75
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    rewardDatas:
+    - rewardType: 0
+      value: 3
+      amount: 1
+  - productId: SeolnalJon
+    groupName: Costume
+    tabName: Costume
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 1
+    modelViewerName: Costume_Shop_Jon_Seolnal
+    title: Seollal
+    previewTitle: Seollal
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Jon_Seollal
+    costTypes:
+    - cost: 25
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    - cost: 175000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 0
+      value: 2
+      amount: 1
+  - productId: ChristmasJon
+    groupName: Costume
+    tabName: Costume
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 1
+    modelViewerName: Costume_Shop_Jon_Christmas
+    title: Christmas
+    previewTitle: Christmas
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Jon_Christmas
+    costTypes:
+    - cost: 50
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    - cost: 350000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 0
+      value: 1
+      amount: 1
+  - productId: IncreaseHealth
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Extra Health
+    previewTitle: Extra Health
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_AddHealth
+    costTypes:
+    - cost: 25
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    rewardDatas:
+    - rewardType: 4
+      value: 1
+      amount: 0
+  - productId: IncreaseDurationSpeedUp
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Speed Boost
+    previewTitle: Speed Boost
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_AddDurationSpeedUp
+    costTypes:
+    - cost: 25000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 4
+      value: 2
+      amount: 0
+  - productId: IncreaseInvulnerableDuration
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Shield
+    previewTitle: Shield
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_AddInvulnerableDuration
+    costTypes:
+    - cost: 50000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 4
+      value: 3
+      amount: 0
+  - productId: Magnet
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Magnet
+    previewTitle: Magnet
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_Magnet
+    costTypes:
+    - cost: 20000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 4
+      value: 4
+      amount: 0
+  - productId: RemoveInk
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Remove Ink
+    previewTitle: Remove Ink
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_RemoveInk
+    costTypes:
+    - cost: 20000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 4
+      value: 5
+      amount: 0
+  - productId: MultiplyScore
+    groupName: Power Up
+    tabName: Power Ups
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Multiply Score
+    previewTitle: Multiply Score
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Item_MultiplyScore
+    costTypes:
+    - cost: 20000
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 0
+    rewardDatas:
+    - rewardType: 4
+      value: 6
+      amount: 0
+  - productId: ResourcesBundle
+    groupName: ResourcesBundle
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: Luxury Loot
+    previewTitle: Luxury Loot
+    description: 
+    enableDiscount: 1
+    discountTag: Best Value
+    thumbnailName: Thumbnail_Shop_Bundle_Currency
+    costTypes:
+    - cost: 36.4
+      discountCost: 18.21
+      isDiscount: 1
+      shopCurrencyType: 2
+    rewardDatas:
+    - rewardType: 1
+      value: 0
+      amount: 500000
+    - rewardType: 2
+      value: 0
+      amount: 50
+  - productId: DailyCoin
+    groupName: Coin
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 5000 Coins
+    previewTitle: <size=150%>5000</size>\nCoins
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Currency_Coin_Small
+    costTypes:
+    - cost: 0
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 4
+    rewardDatas:
+    - rewardType: 1
+      value: 0
+      amount: 5000
+  - productId: MediumCoinPack
+    groupName: Coin
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 250000 Coins
+    previewTitle: <size=150%>250000</size>\nCoins
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Currency_Coin_Medium
+    costTypes:
+    - cost: 35
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    rewardDatas:
+    - rewardType: 1
+      value: 0
+      amount: 250000
+  - productId: LargeCoinPack
+    groupName: Coin
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 400000 Coins
+    previewTitle: <size=150%>400000</size>\nCoins
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Currency_Coin_Big
+    costTypes:
+    - cost: 57
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 1
+    rewardDatas:
+    - rewardType: 1
+      value: 0
+      amount: 400000
+  - productId: SmallDiamondPack
+    groupName: Diamond
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 10 Diamonds
+    previewTitle: <size=150%>10</size>\nDiamonds
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Currency_Diamond_Small
+    costTypes:
+    - cost: 3
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 2
+    rewardDatas:
+    - rewardType: 2
+      value: 0
+      amount: 10
+  - productId: MediumDiamondPack
+    groupName: Diamond
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 30 Diamonds
+    previewTitle: <size=150%>30</size>\nDiamonds
+    description: 
+    enableDiscount: 0
+    discountTag: 
+    thumbnailName: Thumbnail_Shop_Currency_Diamond_Medium
+    costTypes:
+    - cost: 9
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 2
+    rewardDatas:
+    - rewardType: 2
+      value: 0
+      amount: 30
+  - productId: LargeDiamondPack
+    groupName: Diamond
+    tabName: Coins & Gems
+    shopLayout: 0
+    shopFrameType: 6
+    shopPreviewType: 0
+    modelViewerName: 
+    title: 70 Diamonds
+    previewTitle: <size=150%>70</size>\nDiamonds
+    description: 
+    enableDiscount: 0
+    discountTag: Best\nValue
+    thumbnailName: Thumbnail_Shop_Currency_Diamond_Big
+    costTypes:
+    - cost: 21
+      discountCost: 0
+      isDiscount: 0
+      shopCurrencyType: 2
+    rewardDatas:
+    - rewardType: 2
+      value: 0
+      amount: 70

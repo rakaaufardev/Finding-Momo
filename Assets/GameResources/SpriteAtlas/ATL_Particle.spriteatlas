@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATL_Particle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 3
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8cfd817f6f27b974c865f9431e30cb7e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 83cada202b36cd04cb898bddc255b687: 21300000
+    - df4e2c80268877d4fa6cc652b65a3a90: 21300000
+    - 21f69df0f1cd05149a6e9c2241515a6b: 21300000
+    - 13c97c615bf825d40a4fd1550e9446e8: 21300000
+    - 79672ae13d3f8df47a62341adca949f0: 7482667652216324306
+    - 342460e3f279c4948afc363c8f9c2092: 21300000
+    - 1b67645475c4ffe45811247aa3634751: 21300000
+    - bd2dcc84609bcc241bfd92739ba7b7c7: 21300000
+    - 61f9a8368c79f204db99c409743d181c: 21300000
+    - ed1be1b6b0af1e142be31bedb4071451: 21300000
+    - 700d22f7161321040b43dc1465beaee1: 21300000
+    - 49f288587c4587d4c97c9f209fb41abe: 21300000
+    - 680eae988b86a6042ba8d34b309cc8a1: 21300000
+    - 8cba224a28211cd44b1854117b471ba4: 21300000
+    - 568942aabbddbd84cb34b68f4089df15: 21300000
+    - a1b629aad2e34a143a9a1ba0fbc3f5f1: 21300000
+    - 3856290bd7c8efd4cbee7e96abbe1d2d: 21300000
+    - 155816ae25a53b442942e0c600613812: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 83cada202b36cd04cb898bddc255b687, type: 3}
+  - {fileID: 21300000, guid: df4e2c80268877d4fa6cc652b65a3a90, type: 3}
+  - {fileID: 21300000, guid: 21f69df0f1cd05149a6e9c2241515a6b, type: 3}
+  - {fileID: 21300000, guid: 13c97c615bf825d40a4fd1550e9446e8, type: 3}
+  - {fileID: 7482667652216324306, guid: 79672ae13d3f8df47a62341adca949f0, type: 3}
+  - {fileID: 21300000, guid: 342460e3f279c4948afc363c8f9c2092, type: 3}
+  - {fileID: 21300000, guid: 1b67645475c4ffe45811247aa3634751, type: 3}
+  - {fileID: 21300000, guid: bd2dcc84609bcc241bfd92739ba7b7c7, type: 3}
+  - {fileID: 21300000, guid: 61f9a8368c79f204db99c409743d181c, type: 3}
+  - {fileID: 21300000, guid: ed1be1b6b0af1e142be31bedb4071451, type: 3}
+  - {fileID: 21300000, guid: 700d22f7161321040b43dc1465beaee1, type: 3}
+  - {fileID: 21300000, guid: 49f288587c4587d4c97c9f209fb41abe, type: 3}
+  - {fileID: 21300000, guid: 680eae988b86a6042ba8d34b309cc8a1, type: 3}
+  - {fileID: 21300000, guid: 8cba224a28211cd44b1854117b471ba4, type: 3}
+  - {fileID: 21300000, guid: 568942aabbddbd84cb34b68f4089df15, type: 3}
+  - {fileID: 21300000, guid: a1b629aad2e34a143a9a1ba0fbc3f5f1, type: 3}
+  - {fileID: 21300000, guid: 3856290bd7c8efd4cbee7e96abbe1d2d, type: 3}
+  - {fileID: 21300000, guid: 155816ae25a53b442942e0c600613812, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Ring01
+  - TEX_StarDamage
+  - Straight
+  - Particle01
+  - Triangle
+  - Hit01
+  - glow02
+  - TEX_Landing
+  - TEX_TransparentHit
+  - TEX_BombExpotionParticle
+  - glow05
+  - TEX_Feather
+  - TEX_Run
+  - glow04
+  - Ring02
+  - TEX_Ink
+  - TEX_DoubleJump
+  - Smoke01
+  m_RenderDataMap: {}
+  m_Tag: ATL_Particle
+  m_IsVariant: 0
